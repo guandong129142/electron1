@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React + TS</title>
+</head>
+<style>
+  .loading {
+    animation: rotate linear 1.5s infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<body>
+  <div id="root"></div>
+  <div id="loading" style="display: none">
+    <svg t="1705461786149" class="icon loading" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      p-id="4262" width="46" height="46">
+      <!-- d="..." -->
+      <path fill="#1677ff" p-id="4263" />
+    </svg>
+    <p>Loading...</p>
+  </div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

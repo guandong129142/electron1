@@ -1,0 +1,11 @@
+# https://editorconfig.org
+root = true # 对所有文件生效
+
+# 在怎样的文件下生效
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf # \n 表示换行
+insert_final_newline = true # 代码最后新增一行
+trim_trailing_whitespace = true # 修剪尾随空格
